@@ -205,3 +205,5 @@ footer p { margin: 0 0 4px; }
   html { scroll-behavior: auto; }
   * { animation: none !important; transition: none !important; }
 }
+
+.contact { margin: -8px 0 24px; font-size: 0.9375rem; }

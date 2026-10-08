@@ -13,6 +13,11 @@ const stateLabel = { done: 'Done', progress: 'In progress', planned: 'Planned' }
     <title>{meta.title}</title>
     <meta name="description" content={meta.description} />
     <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href={meta.url} />
+    <meta property="og:title" content={meta.title} />
+    <meta property="og:description" content={meta.description} />
+    <meta property="og:url" content={meta.url} />
+    <meta property="og:type" content="website" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -106,6 +111,7 @@ const stateLabel = { done: 'Done', progress: 'In progress', planned: 'Planned' }
               </li>
             ))}
           </ul>
+          <p class="contact">Contact: <a href={links.contact.href}>{links.contact.label}</a></p>
         </section>
       </main>
 
