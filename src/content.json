@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "title": "Shudflow — AI product advisor for online shops",
+    "description": "AI product advisor for online shops outside Shopify: register, tune the bot, embed one widget.",
+    "url": "https://plan.shudflow.com"
+  },
+  "nav": [
+    {
+      "label": "Status",
+      "href": "#status"
+    },
+    {
+      "label": "Decisions",
+      "href": "#decisions"
+    },
+    {
+      "label": "Team",
+      "href": "#team"
+    },
+    {
+      "label": "GitHub",
+      "href": "https://github.com/shudflow",
+      "external": true
+    }
+  ],
+  "hero": {
+    "title": "AI product advisor for online shops outside Shopify",
+    "subtitle": "A shop owner signs up, tunes the bot (tone, language, look), sees the price and embeds a single widget. Shoppers ask in their own language and get products from the shop's real catalog.",
+    "context": "CEE e-commerce · Prom.ua, Rozetka, custom sites · 2026",
+    "flow": [
+      "question",
+      "catalog search",
+      "model",
+      "checked answer",
+      "widget"
+    ]
+  },
+  "status": {
+    "date": "8 Oct 2026",
+    "items": [
+      {
+        "state": "done",
+        "title": "AI service",
+        "text": "FastAPI, Claude, vector search over product embeddings; a fast or a stronger model is picked per question."
+      },
+      {
+        "state": "done",
+        "title": "Answer checking",
+        "text": "A recommended product must exist in the catalog. 10 of 10 test scenarios without invented products; 26 tests."
+      },
+      {
+        "state": "done",
+        "title": "Service image published from GitHub",
+        "text": "Every push to main builds and publishes the container image."
+      },
+      {
+        "state": "progress",
+        "title": "AI connected to the platform",
+        "text": "Welcome message and escalation to a human."
+      },
+      {
+        "state": "progress",
+        "title": "Own sign-in and dashboard",
+        "text": "Google sign-in, sessions, team invitations. The design document is in review."
+      },
+      {
+        "state": "planned",
+        "title": "Visit analytics, voice channel, answer styles for sk / pl / cs",
+        "text": ""
+      }
+    ]
+  },
+  "decisions": {
+    "items": [
+      {
+        "title": "Keycloak",
+        "text": "Keep it only for platform operators, or remove it completely?"
+      },
+      {
+        "title": "Models for shop owners",
+        "text": "Which models are available to shop owners?"
+      },
+      {
+        "title": "Service image",
+        "text": "Does the service image stay private?"
+      }
+    ]
+  },
+  "team": {
+    "items": [
+      {
+        "name": "Vladyslav Shudiehov",
+        "role": "AI service, sign-in and dashboard"
+      },
+      {
+        "name": "Daniil Statsenko",
+        "role": "Backend, frontend, infrastructure"
+      }
+    ]
+  },
+  "links": {
+    "note": "Repositories marked private return a 404 to anyone outside the team.",
+    "items": [
+      {
+        "label": "shudflow.com",
+        "href": "https://shudflow.com"
+      },
+      {
+        "label": "github.com/shudflow",
+        "href": "https://github.com/shudflow",
+        "private": true
+      },
+      {
+        "label": "shudflow/ai-service",
+        "href": "https://github.com/shudflow/ai-service",
+        "private": true
+      },
+      {
+        "label": "shudflow/shud-platform",
+        "href": "https://github.com/shudflow/shud-platform",
+        "private": true
+      },
+      {
+        "label": "Shudflow Tasks",
+        "href": "https://github.com/orgs/shudflow/projects/1",
+        "private": true
+      }
+    ],
+    "contact": {
+      "label": "hello@shudflow.com",
+      "href": "mailto:hello@shudflow.com"
+    }
+  },
+  "footer": {
+    "access": "Built in the open by the Shudflow team.",
+    "company": "Shudflow · Bratislava"
+  }
+}
