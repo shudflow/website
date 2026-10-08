@@ -28,7 +28,7 @@ npm run build      # output in dist/
 npm run preview    # serve dist/ locally
 ```
 
-`dist/` is plain static HTML/CSS and can be hosted anywhere. Nothing is deployed yet.
+`dist/` is plain static HTML/CSS and can be hosted anywhere. Pushes to `main` deploy to GitHub Pages (`.github/workflows/pages.yml`); it can also be run by hand from the Actions tab.
 
 ## Domain
 
